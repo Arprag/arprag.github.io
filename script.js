@@ -14,8 +14,8 @@ const familles = [
             ] },
             { nom: "Nicolas", cadeaux: [] },
             { nom: "Suzanne", cadeaux: [] },
-            { nom: "Camille", age: 15, cadeaux: [] },
-            { nom: "Roxane", age: 4, cadeaux: [] }
+            { nom: "Camille (15 ans)", age: 15, cadeaux: [] },
+            { nom: "Roxane (4 ans)", age: 4, cadeaux: [] }
         ]
     },
     { 
@@ -23,8 +23,8 @@ const familles = [
         membres: [
             { nom: "Maryse", cadeaux: [] },
             { nom: "Mickael", cadeaux: [] },
-            { nom: "Océane", age: 13, cadeaux: [] },
-            { nom: "Victor", age: 7, cadeaux: [] }
+            { nom: "Océane (13 ans)", age: 13, cadeaux: [] },
+            { nom: "Victor (7 ans)", age: 7, cadeaux: [] }
         ]
     },
     { 
@@ -32,7 +32,7 @@ const familles = [
         membres: [
             { nom: "Cécile", cadeaux: [] },
             { nom: "Mathieu", cadeaux: [] },
-            { nom: "Élise", age: 2, cadeaux: [] }
+            { nom: "Élise (2 ans)", age: 2, cadeaux: [] }
         ]
     },
     { 
