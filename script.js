@@ -38,27 +38,17 @@ const familles = [
     { 
         nom: "Famille Pavlioglou", 
         membres: [
-            { nom: "Stéphanie", cadeaux: [] },
-            { nom: "Yann", cadeaux: [] }
-        ]
-    },
-    // Les membres déjà déclarés
-    { 
-        nom: "Sandrine", 
-        cadeaux: [
-            // Liste des cadeaux de Sandrine
-        ]
-    },
-    { 
-        nom: "Yannou", 
-        cadeaux: [
-            // Liste des cadeaux de Yannou
-        ]
-    },
-    { 
-        nom: "Stéphanie", 
-        cadeaux: [
-            // Liste des cadeaux de Stéphanie
+            { nom: "Stéphanie", cadeaux: [
+            { nom: "Vacuvin - Champagne saver & verser", url: "" },
+            { nom: "Lampe de lecture", url: "" },
+            { nom: "Bourjois volume glamour effet push up waterproof", url: "" }
+            ] },
+            { nom: "Yann", cadeaux: [
+            { nom: "Velours de Santal", url: "https://www.labogie.com/products/velours-de-santalz" },
+            { nom: "Oranger en fleur", url: "https://www.labogie.com/products/oranger-en-fleur" },
+            { nom: "Housse de coussin Leonard beige doux", url: "https://www.madura.com/products/housse-de-coussin-leonard-beige-doux-40-40" },
+            { nom: "+ Coussin de garnissage Fibre blanc", url: "https://www.madura.com/products/coussin-de-garnissage-fibre-blanc-40-40" }
+            ] }
         ]
     },
     // Ajoutez ici d'autres membres et leurs listes de cadeaux
