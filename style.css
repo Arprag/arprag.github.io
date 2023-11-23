@@ -1,1 +1,32 @@
-style.css
+.famille {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.membre {
+    margin-top: 5px;
+}
+
+.membre h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+.cadeau {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cadeau li {
+    padding: 2px 0;
+}
+
+.cadeau li a {
+    text-decoration: none;
+    color: #06c;
+}
+
+.cadeau li a:hover {
+    text-decoration: underline;
+}
