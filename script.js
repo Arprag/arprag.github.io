@@ -1,6 +1,3 @@
-familleDiv.className = 'famille';
-membreDiv.className = 'membre';
-listeUl.className = 'cadeau';
 const familles = [
     { 
         nom: "Famille Sangarin Vincent", 
@@ -69,13 +66,16 @@ function afficherListes() {
 
     familles.forEach(famille => {
         const familleDiv = document.createElement('div');
+        familleDiv.className = 'famille'; // Ajoutez la classe ici
         familleDiv.innerHTML = `<h2>Liste de la ${famille.nom}</h2>`;
         
         famille.membres.forEach(membre => {
             const membreDiv = document.createElement('div');
+            membreDiv.className = 'membre'; // Ajoutez la classe ici
             membreDiv.innerHTML = `<h3>${membre.nom}</h3>`;
             
             const listeUl = document.createElement('ul');
+            listeUl.className = 'cadeau'; // Ajoutez la classe ici
             membre.cadeaux.forEach(cadeau => {
                 const cadeauLi = document.createElement('li');
                 cadeauLi.innerHTML = cadeau.url 
