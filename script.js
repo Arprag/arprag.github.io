@@ -1,3 +1,6 @@
+familleDiv.className = 'famille';
+membreDiv.className = 'membre';
+listeUl.className = 'cadeau';
 const familles = [
     { 
         nom: "Famille Sangarin Vincent", 
