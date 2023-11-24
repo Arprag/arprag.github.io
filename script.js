@@ -44,7 +44,14 @@ const familles = [
     { 
         nom: "Famille David Le Doaré", 
         membres: [
-            { nom: "Cécile", cadeaux: [] },
+            { nom: "Cécile", cadeaux: [
+            { nom: "Des boucles d’oreilles pendantes dans les tons bleus ou marrons", url: "" },
+            { nom: "Un bracelet d’Apple Watch (40mm)", url: "" },
+            { nom: "Des bracelets fins (aime bien faire des mélanges de plusieurs bracelets)", url: "" },
+            { nom: "Un porte cartes pour 5-10 cartes", url: "" },
+            { nom: "Le savon-soin hydratant de Sandrine", url: "" },
+            { nom: "Des gants chauds et pratiques pour faire du vélo en hiver", url: "" },
+            ] },
             { nom: "Mathieu", cadeaux: [
             { nom: "Baldur's Gate 3, sur Steam", url: "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"},
             { nom: "Chants of Sennaar sur Xbox", url: "https://www.xbox.com/fr-FR/games/store/chants-of-sennaar/9nr8v6m3qh57"},
