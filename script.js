@@ -9,6 +9,9 @@ const offresDeCadeaux = {
     "Suzanne": "Yann",
     "Yann": "Sandrine"
 };
+
+membreDiv.innerHTML = `<h3>${membre.nom} offre à ${offresDeCadeaux[membre.nom]}</h3>`;
+
 const familles = [
     { 
         nom: "Famille Sangarin Vincent", 
