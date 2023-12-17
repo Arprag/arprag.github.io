@@ -114,7 +114,7 @@ function afficherListes() {
             membreDiv.className = 'membre';
 
             // Utiliser le nouvel objet pour obtenir le nom de la personne qui offre le cadeau
-            const offertPar = cadeauxOffertsPar[membre.nom] || "Quelqu'un";
+            const offertPar = cadeauxOffertsPar[membre.nom] || "le Père Noël";
             membreDiv.innerHTML = `<h3>${membre.nom}, offert par ${offertPar}</h3>`;
             
             const listeUl = document.createElement('ul');
