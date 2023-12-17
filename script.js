@@ -10,6 +10,13 @@ const offresDeCadeaux = {
     "Yann": "Sandrine"
 };
 
+const cadeauxOffertsPar = Object.entries(offresDeCadeaux).reduce((acc, [offreur, receveur]) => {
+    if (!acc[receveur]) {
+        acc[receveur] = offreur;
+    }
+    return acc;
+}, {});
+
 const familles = [
     { 
         nom: "Famille Sangarin Vincent", 
