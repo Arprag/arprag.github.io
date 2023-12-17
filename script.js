@@ -106,9 +106,9 @@ function afficherListes() {
             const membreDiv = document.createElement('div');
             membreDiv.className = 'membre';
 
-            // Vérifier si le membre a un correspondant dans offresDeCadeaux
-            const offrant = offresDeCadeaux[membre.nom] ? offresDeCadeaux[membre.nom] : "Quelqu'un";
-            membreDiv.innerHTML = `<h3>${membre.nom} offre à ${offrant}</h3>`;
+            // Utiliser le nouvel objet pour obtenir le nom de la personne qui offre le cadeau
+            const offertPar = cadeauxOffertsPar[membre.nom] || "Quelqu'un";
+            membreDiv.innerHTML = `<h3>${membre.nom}, offert par ${offertPar}</h3>`;
             
             const listeUl = document.createElement('ul');
             listeUl.className = 'cadeau';
