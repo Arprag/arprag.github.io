@@ -101,16 +101,19 @@ function afficherListes() {
 
     familles.forEach(famille => {
         const familleDiv = document.createElement('div');
-        familleDiv.className = 'famille'; // Ajoutez la classe ici
+        familleDiv.className = 'famille';
         familleDiv.innerHTML = `<h2>Liste de la ${famille.nom}</h2>`;
         
         famille.membres.forEach(membre => {
             const membreDiv = document.createElement('div');
-            membreDiv.className = 'membre'; // Ajoutez la classe ici
-            membreDiv.innerHTML = `<h3>${membre.nom}</h3>`;
+            membreDiv.className = 'membre';
+
+            // Vérifier si le membre a un correspondant dans offresDeCadeaux
+            const offrant = offresDeCadeaux[membre.nom] ? offresDeCadeaux[membre.nom] : "Quelqu'un";
+            membreDiv.innerHTML = `<h3>${membre.nom} offre à ${offrant}</h3>`;
             
             const listeUl = document.createElement('ul');
-            listeUl.className = 'cadeau'; // Ajoutez la classe ici
+            listeUl.className = 'cadeau';
             membre.cadeaux.forEach(cadeau => {
                 const cadeauLi = document.createElement('li');
                 cadeauLi.innerHTML = cadeau.url 
@@ -126,3 +129,4 @@ function afficherListes() {
         container.appendChild(familleDiv);
     });
 }
+
