@@ -33,15 +33,10 @@ const familles = [
             ] },
             { nom: "Nicolas", cadeaux: [
             { nom: "Tequila Cimarron Reposado", url: "https://www.whisky.fr/tequila-cimarron-reposado.html" },
-            { nom: "Whisky Double Barrel Islay & Highland D. Laing", url: "https://www.magnifaik.com/products/embellisseur-de-teint-cest-la-base" },
-            { nom: "Une)
-                )
-                , url: "https://www.lush.com/fr/fr/p/fairly-traded-honey-shampoo/300g" },à
-            { nom: "Chaussettes", url: "https://www.lavantgardiste.com/products/chaussettes-cocooning-en-moumoute?variant=41930779820220" },
-            { nom: "Lampe de lecture", url: "https://www.lavantgardiste.com/products/lampe-de-lecture-pince-a-linge?_pos=4&_sid=e7491a6d6&_ss=r" },
-            { nom: "Boîte à bijoux", url: "https://coulobre.com/products/boite-bijoux-en-bois" },
-            { nom: "Thé (Earl Grey)", url: "" }, // Aucune URL pour cet élément
-            { nom: "Une place de théâtre", url: "" } // Aucune URL pour cet élément
+            { nom: "Whisky Double Barrel Islay & Highland D. Laing", url: "https://www.whisky.fr/double-barrel-islay-highland-d-laing-18993a.html" },
+            { nom: "Un petit yacht 2010 Azimut 55E", url: "https://www.annoncesbateau.com/bateau/2010-azimut-55e-9131664/" },
+            { nom: "Baldur's Gate 3 sur PS5", url: "https://www.playstation.com/fr-fr/games/baldurs-gate-3/" },
+            { nom: "Pierres à affûter japonaises", url: "https://www.amazon.fr/dp/B082SHP87Y?ref_=cm_sw_r_apan_dp_81WA0JWWHRY0C7XPVFJ2&language=fr-FR&th=1" },
             ] },
             { nom: "Suzanne", cadeaux: [] },
             { nom: "Camille (15 ans)", age: 15, cadeaux: [] },
