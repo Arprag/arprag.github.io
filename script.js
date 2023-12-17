@@ -1,3 +1,14 @@
+const offresDeCadeaux = {
+    "Sandrine": "Mathieu",
+    "Cécile": "Maryse",
+    "Nicolas": "Suzanne",
+    "Maryse": "Stéphanie",
+    "Mathieu": "Mickael",
+    "Mickael": "Cécile",
+    "Stéphanie": "Nicolas",
+    "Suzanne": "Yann",
+    "Yann": "Sandrine"
+};
 const familles = [
     { 
         nom: "Famille Sangarin Vincent", 
